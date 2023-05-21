@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/my-photo.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "一名後端軟體工程師，喜歡旅遊、美食跟有趣的人事物"
   location         : "Taipei"
-  email            : "s20055232@gmail.com"
+#   email            : "s20055232@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
