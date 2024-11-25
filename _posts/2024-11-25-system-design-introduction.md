@@ -1,9 +1,8 @@
 ---
-layout: post
-author: allen
+title: "System Design Introduction"
+categories:
+  - System Design
 ---
-
-## Introduction
 
 80/20 法則，大多數的系統設計面試，主要在考驗你少部分的核心觀念
 
