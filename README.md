@@ -1,2 +1,1 @@
 - bundle exec jekyll serve --livereload
-- https://github.com/jekyll/minima
