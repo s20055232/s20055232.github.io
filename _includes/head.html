@@ -7,11 +7,28 @@
   rel="alternate"
   title="{{ site.title }} Feed"
 />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.23/dist/fancybox/fancybox.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.23/dist/fancybox/fancybox.umd.min.js"></script>
 {% endunless %} {%- comment %}
 https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present
 {% endcomment -%}
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Fancybox.bind("[data-fancybox]", {
+      // 可选配置
+      groupAll: true,
+      on: {
+        ready: (fancybox) => {
+          console.log("Fancybox is ready");
+        },
+      },
+    });
+  });
+</script>
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   {% if site.enable_copy_code_button -%}
