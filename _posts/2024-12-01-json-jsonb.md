@@ -1,5 +1,5 @@
 ---
-title: "Key Technologies - Database"
+title: "JSON vs JSONB"
 categories:
   - Database
 ---
